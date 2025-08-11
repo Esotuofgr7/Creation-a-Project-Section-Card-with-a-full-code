@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ESOTU - Projects</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .projects-section {
+      padding: 60px 20px;
+      background-color: white;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .projects-section h1 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 40px;
+      color: #2e3b4e;
+    }
+
+    .project-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .project-card {
+      background-color: #fff;
+      border: 2px solid green;
+      border-radius: 12px;
+      width: 280px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      text-align: center;
+    }
+
+    .project-card:hover {
+      transform: scale(1.05);
+    }
+
+    .project-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+      color: #2e3b4e;
+      font-size: 1.4em;
+    }
+
+    .project-card p {
+      font-size: 1em;
+      line-height: 1.6em;
+      margin-bottom: 15px;
+    }
+
+    .project-card a {
+      text-decoration: none;
+      color: white;
+      background-color: black;
+      padding: 10px 16px;
+      border-radius: 6px;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+
+    .project-card a:hover {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="projects-section">
+    <h1>My Projects</h1>
+    <div class="project-grid">
+      
+      <div class="project-card">
+        <img src="man-using-laptop-computer-cartoon-illustration-person-possibly-remote-working-online-home-running-business-as-297039575.webp" alt="Personal Website">
+        <h3>Personal Website</h3>
+        <p>A responsive website that tells my story, built with HTML, CSS, and JavaScript.</p>
+        <a href="#" target="_blank"><i class="fas fa-globe"></i> View Project</a>
+      </div>
+
+      <div class="project-card">
+        <img src="group-people-museum-viewing-modern-600nw-2162944155.webp" alt="Art Gallery">
+        <h3>Art Gallery</h3>
+        <p>A digital showcase of my drawings and designs, organized in a clean layout.</p>
+        <a href="#" target="_blank"><i class="fas fa-palette"></i> View Project</a>
+      </div>
+
+      <div class="project-card">
+        <img src="young-man-writing-code-desktop-computer-software-developer-work-programming_625536-3102.avif" alt="Code Challenge App">
+        <h3>Code Challenge App</h3>
+        <p>An interactive app that helps kids practice coding with fun challenges.</p>
+        <a href="#" target="_blank"><i class="fas fa-code"></i> View Project</a>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
